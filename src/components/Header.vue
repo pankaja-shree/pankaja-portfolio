@@ -20,11 +20,21 @@ export default {
 header {
   margin: 0;
   height: 56px;
-  padding: 0 16px 0 24px;
+  padding: 2%;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 1.1em;
 }
 </style>
