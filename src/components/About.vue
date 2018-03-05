@@ -15,7 +15,7 @@ export default {
       title: 'About Me',
       aboutPara: 'I am an Electrical Engineering Graduate (2015 batch) from R. V. College of Engineering, Bangalore with 2 years of experience working as a research associate in <a href = "http://samskrti.org/">Samskrti Foundation</a>, a private research and development NGO, helping them build web applications, digital repositories, preparing presentations for seminars and conferences, project proposals and design of quarterly newsletters of the organisation.',
       skillsPara: '<em>Skills</em>: Responsive Web design using HTML, CSS3 and Javascript, Data visualization using Python and Javascript, Machine learning using Python and Tensor Flow, Audio and Video editing and compilation and Graphic design using Adobe InDesign.',
-      interestsPara: '<em>Interests:</em> Research related to Indian knowledge systems and Philosophical schools, Indian Carnatic Music, Natural language processing as applied to Indian languages'
+      interestsPara: '<em>Interests:</em> Research related to Indian knowledge systems and Philosophical schools, Indian Carnatic Music, Natural language processing as applied to Indian languages, Open source software'
     }
   }
 }
