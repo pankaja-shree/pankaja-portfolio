@@ -18,7 +18,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 p {
-  padding: 10%;
+  padding: 8%;
   font-size: 1.5em;
   line-height: 2;
 }
