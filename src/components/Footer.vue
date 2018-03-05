@@ -3,9 +3,9 @@
      <nav>
       <ul>
       <li><a href="https://github.com/pankaja-shree/" target="_blank">Github</a></li>
-      <li><a href="https://in.linkedin.com/in/pankajashree-r-0a2a5167">LinkedIn</a></li>
-      <li><a href="https://twitter.com/pankajashree">Twitter</a></li>
-      <li><a href="https://medium.com/@pankajashree">Blog</a></li>
+      <li><a href="https://in.linkedin.com/in/pankajashree-r-0a2a5167" target="_blank">LinkedIn</a></li>
+      <li><a href="https://twitter.com/pankajashree" target="_blank">Twitter</a></li>
+      <li><a href="https://medium.com/@pankajashree" target="_blank">Blog</a></li>
       </ul>
     </nav>
     </footer>
