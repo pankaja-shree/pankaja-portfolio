@@ -21,6 +21,9 @@ export default {
 <style>
 body {
   margin: 0;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 10px;
 }
 
 #app {
