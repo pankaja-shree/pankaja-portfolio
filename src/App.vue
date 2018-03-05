@@ -5,15 +5,19 @@
       <!--<img src="./assets/logo.png" alt="Vue.js PWA">-->
       <router-view></router-view>
     </main>
+    <AppFooter />
   </div>
 </template>
 
 <script>
 import AppHeader from '@/components/Header'
+import AppFooter from '@/components/Footer'
+
 export default {
   name: 'app',
   components: {
-    AppHeader
+    AppHeader,
+    AppFooter
   }
 }
 </script>
