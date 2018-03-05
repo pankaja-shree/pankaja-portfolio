@@ -29,6 +29,7 @@ nav ul {
 }
 
 header a {
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease;
 }
