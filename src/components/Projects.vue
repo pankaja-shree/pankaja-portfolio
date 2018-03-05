@@ -3,7 +3,9 @@
     <h2>{{ title }}</h2>
     <ul>
       <h3>Research Papers</h3>
-      <li>Jnanashwatha - Knowledge Tree</li>
+      <li><a href="https://drive.google.com/file/d/0B1DiRvzvNxGaSU5vN1RUbXB6UHVuX1lQZk5LUHFid3BQUjRz/view?usp=sharing" target="_blank">Jnanashwatha / Knowledge Tree</a> - A framework for representation and
+
+visualization of traditional knowledge</li>
       <h3>Chatbots - Tech stack: NodeJS, ExpressJS</h3>
       <li><a href="https://pankaja-shree.github.io/sns-splash/">Slack bot</a> - To manage private channels on the Slack app.</li>
       <li><a href="https://pankaja-shree.github.io/wiki-bot/">Facebook Messenger bot</a> - A bot to browse the Wikipedia website from facebook messenger app.</li>
@@ -16,7 +18,7 @@
       <li><a href="http://better-seed.surge.sh/">Tic Tac Toe Game using MinMax Algorithm</a></li>
       <li><a href="http://recipefcc.surge.sh/">Recipe Diary App</a></li>
     </ul>
-    Visit my Github profile and blog to know more about all my projects.
+    Visit my <a href="https://github.com/pankaja-shree/" target="_blank">Github</a> repository and <a href="https://medium.com/@pankajashree" target="_blank">blog</a> to know more about all my projects.
   </div>
 </template>
 
@@ -33,7 +35,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
 ul {
   list-style-type: none;
   padding: 0 5%;
