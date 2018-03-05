@@ -28,12 +28,12 @@ nav ul {
   justify-content: space-between;
 }
 
-a {
+header a {
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
-a:hover {
+header a:hover {
     font-weight: bold;
     font-size: 1.1em;
 }
