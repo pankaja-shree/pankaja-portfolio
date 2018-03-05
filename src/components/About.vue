@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ title }}</h1>
-    <p>{{ aboutPara }}</p>
+    <p v-html="aboutPara"></p>
+    <p>{{ skillsPara }}</p>
   </div>
 </template>
 
@@ -10,8 +11,9 @@ export default {
   name: 'hello',
   data () {
     return {
-      title: 'About',
-      aboutPara: "I'm Pankajashree, a web developer from Mysore. I have worked for 2 years in a research and development NGO, helping build web applications, digital repositories and assist in content management for preparing seminar presentations, project proposals and design of quarterly newsletters of the organisation. My skills include: Responsive Web design, Data visualization, Machine learning using Tensor Flow, Audio and Video editing and compilation."
+      title: 'About Me',
+      aboutPara: 'I am an Electrical Engineering Graduate from R.V.College of Engineering, Bangalore. I have worked for 2 years in <a href = "http://samskrti.org/">Samskrti Foundation</a>, a private research and development NGO, helping build web applications, digital repositories and as a research associate, preparing seminar presentations, project proposals and design of quarterly newsletters of the organisation.',
+      skillsPara: 'My skills include: Responsive Web design using HTML, CSS3 and Javascript, Data visualization using Python and Javascript, Machine learning using Python and Tensor Flow, Audio and Video editing and compilation and Graphic design using Adobe InDesign.'
     }
   }
 }
@@ -19,8 +21,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-h1, h2 {
-  font-weight: normal;
+p {
+  padding: 0 8%;
+  font-size: 1.2em;
+  line-height: 2;
 }
 
 ul {
@@ -33,7 +37,4 @@ li {
   margin: 0 10px;
 }
 
-a {
-  color: #35495E;
-}
 </style>
