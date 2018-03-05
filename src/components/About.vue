@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ title }}</h1>
+    <h2>{{ title }}</h2>
     <p v-html="aboutPara"></p>
     <p>{{ skillsPara }}</p>
   </div>
@@ -23,8 +23,8 @@ export default {
 <style>
 p {
   padding: 0 8%;
-  font-size: 1.1em;
   line-height: 1.8;
+  text-align: justify;
 }
 
 p a {
