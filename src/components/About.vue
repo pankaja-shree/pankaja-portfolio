@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="about">
     <h2>{{ title }}</h2>
     <p v-html="aboutPara"></p>
     <p v-html="interestsPara"></p>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'about',
   data () {
     return {
       title: 'About Me',
@@ -44,4 +44,17 @@ li {
   margin: 0 10px;
 }
 
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
 </style>
