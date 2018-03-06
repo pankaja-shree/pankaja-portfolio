@@ -4,7 +4,7 @@
       <ul>
       <li><router-link to='/'>Pankajashree R</router-link></li>
       <li><router-link to='/about'>About</router-link>  <router-link to='/projects'>Work</router-link></li>
-      <li>Resume</li>
+      <li><a href="https://docs.google.com/document/d/13NAK11sLEOnhwvjKFN6v4mo5MHlP3NG3sNR1f8Ypfkc/edit?usp=sharing" target="_blank">Resume</a></li>
       </ul>
     </nav>
     </header>
