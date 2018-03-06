@@ -6,6 +6,7 @@
       <li><a href="https://in.linkedin.com/in/pankajashree-r-0a2a5167" target="_blank">LinkedIn</a></li>
       <li><a href="https://twitter.com/pankajashree" target="_blank">Twitter</a></li>
       <li><a href="https://medium.com/@pankajashree" target="_blank">Blog</a></li>
+      <li><a href="mailto:pankajashree@gmail.com?Subject=Hello">Email</a></li>
       </ul>
     </nav>
     </footer>
