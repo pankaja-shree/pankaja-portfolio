@@ -9,7 +9,7 @@ export default {
   name: 'home',
   data () {
     return {
-      introPara: "I'm Pankajashree, researcher and web developer from Mysore. I have been building mobile first, progressive web applications that is accessible to all using Javascript and Python since 2 years."
+      introPara: "I'm Pankajashree, researcher and web developer from Mysore. I have been building mobile first, progressive web applications that is accessible to all using Javascript and Python since 3 years."
     }
   }
 }
